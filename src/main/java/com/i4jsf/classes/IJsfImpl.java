@@ -42,24 +42,16 @@ public class IJsfImpl implements IJsf{
 	 * @param severity INFO, WARN, ERROR 
 	 * @param msg message 
 	 */
-	public void  addMessageFaceContext(Severity severity, String msg) {
+	public void  addMessageFaceContext(String idComponent,Severity severity, String msg) {
 		FacesContext facesContext = FacesContext.getCurrentInstance();
 		FacesMessage facesMessage = new FacesMessage(severity, msg ,"");
-		facesContext.addMessage(null, facesMessage);
+		facesContext.addMessage(idComponent, facesMessage);
 	}
-//
-//	/**
-//	 * 
-//	 * @param message
-//	 */
-//	public void addMessageFaceContext(String message){
-//		FacesContext context = FacesContext.getCurrentInstance();
-//		FacesMessage facesMessage = new FacesMessage(message);
-//		context.addMessage(null, facesMessage);
-//	}
+
 	
 	private void addFacesMessages(FacesContext context, String message) {
 		FacesMessage faceMessages = new FacesMessage(message);
 		context.addMessage(null, faceMessages);
 	}
+	
 }
