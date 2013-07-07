@@ -23,11 +23,6 @@ public class IJsfImpl implements IJsf{
 			addFacesMessages(context, message);
 	}
 	
-	private void addFacesMessages(FacesContext context, String message) {
-		FacesMessage faceMessages = new FacesMessage(message);
-		context.addMessage(null, faceMessages);
-	}
-	
 	
 /**
  * @param componentId JSF
@@ -52,15 +47,19 @@ public class IJsfImpl implements IJsf{
 		FacesMessage facesMessage = new FacesMessage(severity, msg ,"");
 		facesContext.addMessage(null, facesMessage);
 	}
-
-	/**
-	 * 
-	 * @param message
-	 */
-	public void addMessageFaceContext(String message){
-		FacesContext context = FacesContext.getCurrentInstance();
-		FacesMessage facesMessage = new FacesMessage(message);
-		context.addMessage(null, facesMessage);
-	}
+//
+//	/**
+//	 * 
+//	 * @param message
+//	 */
+//	public void addMessageFaceContext(String message){
+//		FacesContext context = FacesContext.getCurrentInstance();
+//		FacesMessage facesMessage = new FacesMessage(message);
+//		context.addMessage(null, facesMessage);
+//	}
 	
+	private void addFacesMessages(FacesContext context, String message) {
+		FacesMessage faceMessages = new FacesMessage(message);
+		context.addMessage(null, faceMessages);
+	}
 }
