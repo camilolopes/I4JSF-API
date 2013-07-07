@@ -1,5 +1,3 @@
-I4JSF
-
 #Description 
 This API has objective to reduce quantity of code for internationalization using JSF. If you would like to avoid repetitive code and maintain code clear, this API can help you without missing make sense of your original code. 
 
