@@ -31,5 +31,6 @@ new IJsfImpl().addTranslateContext("language", "msg.error");
 Inform internationalization variable  and bundle key. Like this your message is added the context JSF. 
 Observe that we reduced from 4 lines to 1 line. 
 
-#Fork 
-Make a fork of the project and send your contribution
+#Wiki
+https://github.com/camilolopes/I4JSF-API/wiki
+
