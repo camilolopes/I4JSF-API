@@ -31,7 +31,7 @@
 					</execution>
 				</executions>
 			</plugin>
-
+				<!-- Plugin for GITHUB -->
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
