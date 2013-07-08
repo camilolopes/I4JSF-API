@@ -37,3 +37,6 @@ https://github.com/camilolopes/I4JSF-API/wiki
 #Download Jar
 https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
 
+#Adding via maven 
+https://github.com/camilolopes/I4JSF-API/wiki/adding-I4JSF-your-pom.xml
+
