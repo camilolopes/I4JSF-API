@@ -11,7 +11,10 @@ Because of this I4JSF was created with objective of fix this problem when we hav
 #Support 
 This API gives support JSF 1.2 or later. 
 
-#Example in Practice 
+##Features
+Check the features implemented according to [release](https://github.com/camilolopes/I4JSF-API.wiki.git)
+
+##Example in Practice 
 
 Normally using bundle your code appear something like this: 
 
