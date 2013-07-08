@@ -14,6 +14,16 @@ This API gives support JSF 1.2 or later.
 ##Features
 Check the features implemented according to [release](https://github.com/camilolopes/I4JSF-API.wiki.git)
 
+##More information - Wiki
+https://github.com/camilolopes/I4JSF-API/wiki
+
+##Download Jar
+https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
+
+##Setup I4JSF 
+https://github.com/camilolopes/I4JSF-API.wiki.git
+
+
 ##Example in Practice 
 
 Normally using bundle your code appear something like this: 
@@ -34,12 +44,4 @@ new I4JSF().addTranslateContext("language", "msg.error");
 Inform internationalization variable  and bundle key. Like this your message is added the context JSF. 
 Observe that we reduced from 4 lines to 1 line. 
 
-##More information - Wiki
-https://github.com/camilolopes/I4JSF-API/wiki
-
-##Download Jar
-https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
-
-##Setup I4JSF 
-https://github.com/camilolopes/I4JSF-API.wiki.git
 
