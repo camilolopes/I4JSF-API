@@ -20,12 +20,13 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<!-- 
 				<configuration>
 					<reportOutputDirectory>
 						${basedir}/api-docs
 					</reportOutputDirectory>
 					<destDir>api-docs</destDir>
-				</configuration>
+				</configuration> -->
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
