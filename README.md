@@ -21,7 +21,7 @@ https://github.com/camilolopes/I4JSF-API/wiki
 https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
 
 ##Setup I4JSF 
-https://github.com/camilolopes/I4JSF-API.wiki.git
+https://github.com/camilolopes/I4JSF-API/wiki/Setup-I4JSF
 
 
 ##Example in Practice 
