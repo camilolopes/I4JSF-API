@@ -25,7 +25,7 @@ FacesContext facesContext = FacesContext.getCurrentInstance();
 ```	
 ##Using I4JSF API
 ```java
-new IJsfImpl().addTranslateContext("language", "msg.error");
+new I4JSF().addTranslateContext("language", "msg.error");
 ```
 
 Inform internationalization variable  and bundle key. Like this your message is added the context JSF. 
