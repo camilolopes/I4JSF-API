@@ -15,7 +15,7 @@ This API gives support JSF 1.2 or later.
 
 Normally using bundle your code appear something like this: 
 
-JSF Default 
+##Native JSF
 ```java
 FacesContext facesContext = FacesContext.getCurrentInstance();
 	ResourceBundle bundle = facesContext.getApplication().getResourceBundle(facesContext, "language");
@@ -23,7 +23,7 @@ FacesContext facesContext = FacesContext.getCurrentInstance();
 	String msgBundle = bundle.getString(bundleKey);
 	addFacesMessage(facesContext, msgBundle);
 ```	
-##Using I4JSF API
+##I4JSF API
 ```java
 new I4JSF().addTranslateContext("language", "msg.error");
 ```
@@ -31,6 +31,6 @@ new I4JSF().addTranslateContext("language", "msg.error");
 Inform internationalization variable  and bundle key. Like this your message is added the context JSF. 
 Observe that we reduced from 4 lines to 1 line. 
 
-#Wiki
+#More information - Wiki
 https://github.com/camilolopes/I4JSF-API/wiki
 
