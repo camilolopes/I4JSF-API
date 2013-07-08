@@ -34,3 +34,6 @@ Observe that we reduced from 4 lines to 1 line.
 #More information - Wiki
 https://github.com/camilolopes/I4JSF-API/wiki
 
+#Download 
+https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
+
