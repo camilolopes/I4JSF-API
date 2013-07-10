@@ -11,27 +11,29 @@ Normally, some teams create "Utility Classes" to avoid repetive code for your pr
 
 Because of this I4JSF was created with objective of fix this problem when we have more one project using Internationalization JSF and we would not to repeat common code, because it is very boring. 
 
-##Support 
+###Support 
 This API gives support JSF 1.2 or later. 
 
-##Features
+###Features
 Check the features implemented according to [release](https://github.com/camilolopes/I4JSF-API.wiki.git)
 
-##More information - Wiki
+###More information - Wiki
 https://github.com/camilolopes/I4JSF-API/wiki
 
-##Download Jar
+###Download Jar
 https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
 
-##Setup I4JSF 
+###Setup I4JSF 
 https://github.com/camilolopes/I4JSF-API/wiki/Setup-I4JSF
 
+###JEE Project Example 
+Download [JEE Project](https://github.com/camilolopes/I4JSFDEMO) using I4JSF 
 
-##Example in Practice 
+###Code Example in Practice 
 
 Normally using bundle your code appear something like this: 
 
-##Native JSF
+###Native JSF
 ```java
 FacesContext facesContext = FacesContext.getCurrentInstance();
 	ResourceBundle bundle = facesContext.getApplication().getResourceBundle(facesContext, "language");
@@ -39,7 +41,7 @@ FacesContext facesContext = FacesContext.getCurrentInstance();
 	String msgBundle = bundle.getString(bundleKey);
 	addFacesMessage(facesContext, msgBundle);
 ```	
-##I4JSF API
+###I4JSF API
 ```java
 new I4JSF().addTranslateContext("language", "msg.error");
 ```
