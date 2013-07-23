@@ -23,8 +23,29 @@ https://github.com/camilolopes/I4JSF-API/wiki
 ###Download Jar
 https://github.com/camilolopes/I4JSF-API/tree/mvn-repo/com/i4jsf/i4jsf/
 
-###Setup I4JSF 
-https://github.com/camilolopes/I4JSF-API/wiki/Setup-I4JSF
+###quick setup 
+ **Maven**
+Add the following snippet to any project's pom that depends on I4JSF:
+```java
+<repositories>
+    <repository>
+        <id>I4JSF-mvn-repo</id>
+        <url>https://raw.github.com/camilolopes/I4JSF-API/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+</repositories>
+```
+Adding dependency
+```java
+<dependency>
+     	<groupId>com.i4jsf</groupId>
+     	<artifactId>i4jsf</artifactId>
+     	<version>1.0.0</version>
+     </dependency>
+```
 
 ###JEE Project Example 
 Download [JEE Project](https://github.com/camilolopes/I4JSFDEMO) using I4JSF 
@@ -48,5 +69,8 @@ new I4JSF().addTranslateContext("language", "msg.error");
 
 Inform internationalization variable  and bundle key. Like this your message is added the context JSF. 
 Observe that we reduced from 4 lines to 1 line. 
+
+###Example Demo live 
+[check here] (https://github.com/camilolopes/I4JSFDEMO) 
 
 
